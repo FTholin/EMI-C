@@ -7,7 +7,6 @@ Introduction à la programmation en langage C
 
 Nous allons aborder dans ce cours les notions fondamentales de la programmation informatique et de l'algorithmie avec le langage de programmation C.
 
-Nous disposons de 11 séances de 3 heures de cours en présentiel.
 
 Celles-ci auront la forme de travaux dirigés composés d'activités à réaliser en autonomie.
 

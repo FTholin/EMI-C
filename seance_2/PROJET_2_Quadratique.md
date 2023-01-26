@@ -39,20 +39,20 @@ int main()
   <summary>J'ai besoin d'aide ! 😱</summary>
   <p>
 
-  Le type de données ici doit être double (et non int).
+  Le type de données ici doit être ``float`` (et non ``int``).
 
-  Vous pouvez déclarer trois variables doubles comme suit :
+  Vous pouvez déclarer trois variables ``float`` comme suit :
 
   ```cpp
-  double a;
-  double b;
-  double c;
+  float a;
+  float b;
+  float c;
   ```
 
   ou
 
   ```cpp
-  double a, b, c;
+  float a, b, c;
   ```
 
   </p>

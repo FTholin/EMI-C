@@ -146,16 +146,22 @@ Utilisez de nouveau [scanf](http://ressources.unit.eu/cours/Cfacile/co/ch4_p5_6.
 
 17. Maintenant, nous devons trouver laquelle de ces quatre maisons a le score la plus élevé !
 
-  Nous aurons besoin d'une autre variable appelée `max` qui `commence à 0`.
+  Nous aurons besoin d'une autre variable appelée `max` qui `commence à 0` et une chaîne de caractères vide avec :
+  ```c
+  char maison_choisie[20];
+  ```
 
 18. Créez la logique finale pour trouver la maison ayant le nombre maximum:
-  - Si `gryffondor > max` alors `max = gryffondor` et afficher `Votre maison est Gryffondor`.
+  - Si `gryffondor > max` alors `max = gryffondor` et `maison_choisie égale à `Maison Gryffondor`.
 
-  - Si `poufsouffle > max` alors `max = poufsouffle` et afficher `Votre maison est Poufsouffle`.
+  - Si `poufsouffle > max` alors `max = poufsouffle` et `maison_choisie égale à `Maison est Poufsouffle`.
 
-  - Si `serdaigle > max` alors `max = serdaigle` et afficher `Votre maison est Serdaigle`.
+  - Si `serdaigle > max` alors `max = serdaigle` et `maison_choisie` égale à `Maison Serdaigle`.
 
-  - Si `serpentard > max` alors `max = serpentard` et afficher `Votre maison est Serpentard`
+  - Si `serpentard > max` alors `max = serpentard` et `maison_choisie` égale à `Maison Serpentard`
+
+19. Affichez au jeune sorcier la maison dans laquelle il a été choisi.
+
 
 19. `Enregistrez`, `compilez` puis `exécutez` le programme en utilisant le terminal pour s'assurez qu'il n'a pas de bugs 🐛.
 

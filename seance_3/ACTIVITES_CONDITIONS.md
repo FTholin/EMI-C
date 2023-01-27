@@ -35,7 +35,7 @@ Si la condition est égale à `true` (🇫🇷 vrai), les instructions qu'elle c
 
 ```cpp
 if (montant_compte == 0) {
-  std::cout << "J'ai plus un radis 😭😭\n"
+  printf("J'ai plus un radis 😭😭\n");
 }
 ```
 

@@ -658,6 +658,7 @@ Par exemple :
 
   ```cpp
   #include <stdio.h>
+  #include <stdbool.h>
   ```
   </p>
   </details>
@@ -688,7 +689,8 @@ Par exemple :
   <p>
 
   ```cpp
-  bool bien_bu, bien_mange = true;
+  bool bien_bu = true;
+  bien_mange = true;
   ```
 
   </p>

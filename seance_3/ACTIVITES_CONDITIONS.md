@@ -35,7 +35,7 @@ Si la condition est égale à `true` (🇫🇷 vrai), les instructions qu'elle c
 
 ```cpp
 if (montant_compte == 0) {
-  std::cout << "J'ai plus un radis 😭😭\n"
+  printf("J'ai plus un radis 😭😭\n");
 }
 ```
 
@@ -658,6 +658,7 @@ Par exemple :
 
   ```cpp
   #include <stdio.h>
+  #include <stdbool.h>
   ```
   </p>
   </details>
@@ -688,7 +689,8 @@ Par exemple :
   <p>
 
   ```cpp
-  bool bien_bu, bien_mange = true;
+  bool bien_bu = true;
+  bien_mange = true;
   ```
 
   </p>

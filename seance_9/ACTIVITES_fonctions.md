@@ -4,7 +4,7 @@ Au fur et à mesure que vous écrivez du code, vous aurez parfois besoin de réu
 
 Une fonction est un groupe d'instructions auquel on attribue un nom qui sera utilisé ailleurs dans le code, souvent de manière répétée. Les fonctions peuvent recevoir un ensemble d'entrées et produire une sortie.
 
-![fonction](./ressources/Function-Intro.svg)
+![fonction](./ressources/Function-Intro.png)
 
 
 Dans la photo ci-dessus, nous utilisons l'idée d'une fonction permettant de fabriquer des biscuits.
